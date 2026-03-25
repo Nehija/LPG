@@ -66,7 +66,7 @@ const app = initializeApp(firebaseConfig);
 const db = getDatabase(app);
 
 // 🔥 MUST MATCH ESP32 PATH
-const dataRef = ref(db, "GasMonitoring");
+const dataRef = ref(db, "/");
 
 let soundEnabled = false;
 
